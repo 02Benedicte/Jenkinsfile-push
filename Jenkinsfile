@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "good flow"
                 echo "patience"
+                echo " practising"
             }
         }
 
