@@ -62,5 +62,10 @@ pipeline {
                 echo "noRDB"
             }
         }
+        stage ("ask for clarity"){
+            steps {
+                echo "good to know"
+            }
+        }
     }
 }
