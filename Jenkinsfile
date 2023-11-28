@@ -24,7 +24,8 @@ pipeline {
         stage ("quality"){
             steps {
                 echo "code smel"
-                echo "quality cotrol"
+                echo "quality control"
+                input("do you want to proceed?")
             }
         }
 
