@@ -54,6 +54,7 @@ pipeline {
             steps {
                 echo "internet facing"
                 echo "internal facing"
+                echo "learning cuve as you assist others"
             }
         }
         stage ("databases"){
